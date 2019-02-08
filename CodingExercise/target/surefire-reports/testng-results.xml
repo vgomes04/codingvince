@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1877" started-at="2019-02-08T19:22:31Z" finished-at="2019-02-08T19:22:33Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="1877" started-at="2019-02-08T19:22:31Z" finished-at="2019-02-08T19:22:33Z">
+      <class name="com.vince.steps.LogIn">
+        <test-method status="PASS" signature="open()[pri:0, instance:com.vince.steps.LogIn@2c6a3f77]" name="open" is-config="true" duration-ms="5360" started-at="2019-02-08T19:22:26Z" finished-at="2019-02-08T19:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="selectlogin()[pri:0, instance:com.vince.steps.LogIn@2c6a3f77]" name="selectlogin" duration-ms="497" started-at="2019-02-08T19:22:31Z" finished-at="2019-02-08T19:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectlogin -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.vince.steps.LogIn@2c6a3f77]" name="login" duration-ms="460" started-at="2019-02-08T19:22:32Z" finished-at="2019-02-08T19:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="makeappointment()[pri:2, instance:com.vince.steps.LogIn@2c6a3f77]" name="makeappointment" duration-ms="892" started-at="2019-02-08T19:22:32Z" finished-at="2019-02-08T19:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeappointment -->
+        <test-method status="PASS" signature="signo()[pri:0, instance:com.vince.steps.LogIn@2c6a3f77]" name="signo" is-config="true" duration-ms="340" started-at="2019-02-08T19:22:33Z" finished-at="2019-02-08T19:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signo -->
+      </class> <!-- com.vince.steps.LogIn -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

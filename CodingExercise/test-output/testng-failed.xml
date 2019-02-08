@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.vince.steps.LogIn">
+        <methods>
+          <include name="selectlogin"/>
+          <include name="makeappointment"/>
+          <include name="signo"/>
+          <include name="login"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- com.vince.steps.LogIn -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
